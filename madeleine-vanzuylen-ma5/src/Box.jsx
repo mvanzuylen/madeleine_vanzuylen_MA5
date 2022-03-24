@@ -15,7 +15,7 @@ export default function Box(props){
         if (color === false) {
             setColor(true);
             props.countCheck(1);
-        } else if (color == true) {
+        } else if (color === true) {
             setColor(false)
             props.countCheck(-1);
         }

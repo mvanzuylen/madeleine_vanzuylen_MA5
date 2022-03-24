@@ -3,7 +3,6 @@ import Box from './Box'
 import './App.css';
 
 function App() {
-    //const [isColor, changeColor] = useState(false);
     const [count, changeCount] = useState(0);
 
     return(
@@ -20,6 +19,3 @@ function App() {
 }
 
 export default App;
-
-
-//onColorCheck={(whichColor) => changeColor(whichColor)}
